@@ -31,3 +31,7 @@ platform :mri do
   # The implementation of ReadWriteLock in Volt uses concurrent ruby and ext helps performance.
   gem 'concurrent-ruby-ext'
 end
+
+gem 'opal', github: 'opal'
+gem 'opal-rspec', github: 'opal/opal-rspec'
+gem 'opal-jquery', github: 'opal/opal-jquery'
